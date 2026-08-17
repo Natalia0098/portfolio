@@ -1947,5 +1947,13 @@ Jesteśmy na miejscu, tuż obok realizowanych przez Ciebie inwestycji. Sprawdź,
             });
         });
     </script>
+    <script>
+  if ('scrollRestoration' in history) {
+    history.scrollRestoration = 'manual';
+  }
+  window.onload = function() {
+    window.scrollTo(0, 0);
+  };
+</script>
 </body>
 </html>
